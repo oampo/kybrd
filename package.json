@@ -1,6 +1,6 @@
 {
   "name": "kybrd",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Track the state of the keyboard",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,6 @@
     "keyboard",
     "key"
   ],
-  "author": "Joe Turner",
-  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
