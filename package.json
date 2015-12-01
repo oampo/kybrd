@@ -4,12 +4,30 @@
   "description": "Track the state of the keyboard",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack && webpack --config webpack.config.min.js",
+    "watch": "webpack --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oampo/kybrd.git"
+  },
+  "author": "Joe Turner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oampo/kybrd/issues"
+  },
+  "homepage": "https://github.com/oampo/kybrd",
   "keywords": [
     "keyboard",
     "key"
   ],
   "author": "Joe Turner",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "webpack": "^1.12.9"
+  }
 }
